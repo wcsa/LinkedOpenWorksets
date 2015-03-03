@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:terms="http://purl.org/dc/terms/" xmlns:workset="http://hathitrust.org/htrc/workset#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://hathitrust.org/htrc/workset/sample-data">
+    <owl:imports rdf:resource="http://hathitrust.org/htrc/workset/0.2"/>
+    <owl:versionIRI rdf:resource="http://hathitrust.org/htrc/workset/sample-data/0.1"/>
+  </owl:Ontology>
+  <owl:NamedIndividual rdf:about="http://hathitrust.org/htrc/workset/sample-data/users/whamrick">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+    <terms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whamrick</terms:identifier>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hathitrust.org/htrc/workset/sample-data/users/whamrick#finch_poems">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Workset"/>
+    <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-09T10:02:45-04:00</terms:modified>
+    <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finch_poems</terms:title>
+    <terms:creator rdf:resource="http://hathitrust.org/htrc/workset/sample-data/users/whamrick"/>
+    <terms:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poems by Anne Finch</terms:abstract>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/pst.000006246778"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/mdp.39015007004081"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/mdp.39015003744821"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/loc.ark:/13960/t6n01r48g"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/pst.000006246778">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/mdp.39015007004081">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/mdp.39015003744821">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/loc.ark:/13960/t6n01r48g">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://hathitrust.org/htrc/workset/sample-data/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://hathitrust.org/htrc/workset/sample-data"
+     versionIRI="http://hathitrust.org/htrc/workset/sample-data/0.1">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://hathitrust.org/htrc/workset/0.2</Import>
+    <Declaration>
+        <NamedIndividual IRI="users/skowalczyk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t0000h07c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t4hm5ks2z"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t6j10dg2z"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t68345804"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t4zg7095h"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t01z4js3n"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/yale.39002088372983"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t9377qf6p"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/hvd.hx4fxz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uc2.ark:/13960/t7br8nb4q"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/dc/terms/Agent"/>
+        <NamedIndividual IRI="users/skowalczyk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://hathitrust.org/htrc/workset#Volume"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t0000h07c"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://hathitrust.org/htrc/workset#Volume"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t4hm5ks2z"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://hathitrust.org/htrc/workset#Volume"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t6j10dg2z"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://hathitrust.org/htrc/workset#Volume"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t68345804"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://hathitrust.org/htrc/workset#Volume"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t4zg7095h"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://hathitrust.org/htrc/workset#Volume"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t01z4js3n"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://hathitrust.org/htrc/workset#Volume"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/yale.39002088372983"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://hathitrust.org/htrc/workset#Volume"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t9377qf6p"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://hathitrust.org/htrc/workset#Volume"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/hvd.hx4fxz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://hathitrust.org/htrc/workset#Volume"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uc2.ark:/13960/t7br8nb4q"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://hathitrust.org/htrc/workset#Workset"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://hathitrust.org/htrc/workset#gathers"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t0000h07c"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://hathitrust.org/htrc/workset#gathers"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t4hm5ks2z"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://hathitrust.org/htrc/workset#gathers"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t6j10dg2z"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://hathitrust.org/htrc/workset#gathers"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t68345804"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://hathitrust.org/htrc/workset#gathers"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t4zg7095h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://hathitrust.org/htrc/workset#gathers"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t01z4js3n"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://hathitrust.org/htrc/workset#gathers"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/yale.39002088372983"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://hathitrust.org/htrc/workset#gathers"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uiuo.ark:/13960/t9377qf6p"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://hathitrust.org/htrc/workset#gathers"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/hvd.hx4fxz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://hathitrust.org/htrc/workset#gathers"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <NamedIndividual IRI="http://hdl.handle.net/2027/uc2.ark:/13960/t7br8nb4q"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/dc/terms/creator"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <NamedIndividual IRI="users/skowalczyk"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/dc/terms/identifier"/>
+        <NamedIndividual IRI="users/skowalczyk"/>
+        <Literal datatypeIRI="&xsd;string">skowalczyk</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/dc/terms/modified"/>
+        <NamedIndividual IRI="users/skowalczyk#Dickens_as_Authors"/>
+        <Literal datatypeIRI="&xsd;dateTime">2013-09-08T16:28:31-04:00</Literal>
+    </DataPropertyAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+        <IRI>users/skowalczyk#Dickens_as_Authors</IRI>
+        <Literal datatypeIRI="&xsd;string">Dickens_as_Authors</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

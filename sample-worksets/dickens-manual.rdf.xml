@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY workset "http://hathitrust.org/htrc/workset#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:workset="http://hathitrust.org/htrc/workset#">
+    <Ontology rdf:about="http://hathitrust.org/htrc/workset/sample-data">
+        <imports rdf:resource="http://hathitrust.org/htrc/workset/0.2"/>
+        <versionIRI rdf:resource="http://hathitrust.org/htrc/workset/sample-data/0.1"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://hathitrust.org/htrc/workset/sample-data/users/skowalczyk -->
+
+    <NamedIndividual rdf:about="http://hathitrust.org/htrc/workset/sample-data/users/skowalczyk">
+        <rdf:type rdf:resource="&terms;Agent"/>
+        <terms:identifier rdf:datatype="&xsd;string">skowalczyk</terms:identifier>
+    </NamedIndividual>
+    
+
+
+    <!-- http://hathitrust.org/htrc/workset/sample-data/users/skowalczyk#Dickens_as_Authors -->
+
+    <NamedIndividual rdf:about="http://hathitrust.org/htrc/workset/sample-data/users/skowalczyk#Dickens_as_Authors">
+        <rdf:type rdf:resource="&workset;Workset"/>
+        <terms:modified rdf:datatype="&xsd;dateTime">2013-09-08T16:28:31-04:00</terms:modified>
+        <terms:title rdf:datatype="&xsd;string">Dickens_as_Authors</terms:title>
+        <terms:creator rdf:resource="http://hathitrust.org/htrc/workset/sample-data/users/skowalczyk"/>
+        <workset:gathers rdf:resource="http://hdl.handle.net/2027/hvd.hx4fxz"/>
+        <workset:gathers rdf:resource="http://hdl.handle.net/2027/yale.39002088372983"/>
+        <workset:gathers rdf:resource="http://hdl.handle.net/2027/uc2.ark:/13960/t7br8nb4q"/>
+        <workset:gathers rdf:resource="http://hdl.handle.net/2027/uiuo.ark:/13960/t0000h07c"/>
+        <workset:gathers rdf:resource="http://hdl.handle.net/2027/uiuo.ark:/13960/t01z4js3n"/>
+        <workset:gathers rdf:resource="http://hdl.handle.net/2027/uiuo.ark:/13960/t4hm5ks2z"/>
+        <workset:gathers rdf:resource="http://hdl.handle.net/2027/uiuo.ark:/13960/t4zg7095h"/>
+        <workset:gathers rdf:resource="http://hdl.handle.net/2027/uiuo.ark:/13960/t68345804"/>
+        <workset:gathers rdf:resource="http://hdl.handle.net/2027/uiuo.ark:/13960/t6j10dg2z"/>
+        <workset:gathers rdf:resource="http://hdl.handle.net/2027/uiuo.ark:/13960/t9377qf6p"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://hdl.handle.net/2027/hvd.hx4fxz -->
+
+    <NamedIndividual rdf:about="http://hdl.handle.net/2027/hvd.hx4fxz">
+        <rdf:type rdf:resource="&workset;Volume"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://hdl.handle.net/2027/yale.39002088372983 -->
+
+    <NamedIndividual rdf:about="http://hdl.handle.net/2027/yale.39002088372983">
+        <rdf:type rdf:resource="&workset;Volume"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://hdl.handle.net/2027/uc2.ark:/13960/t7br8nb4q -->
+
+    <NamedIndividual rdf:about="http://hdl.handle.net/2027/uc2.ark:/13960/t7br8nb4q">
+        <rdf:type rdf:resource="&workset;Volume"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://hdl.handle.net/2027/uiuo.ark:/13960/t0000h07c -->
+
+    <NamedIndividual rdf:about="http://hdl.handle.net/2027/uiuo.ark:/13960/t0000h07c">
+        <rdf:type rdf:resource="&workset;Volume"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://hdl.handle.net/2027/uiuo.ark:/13960/t01z4js3n -->
+
+    <NamedIndividual rdf:about="http://hdl.handle.net/2027/uiuo.ark:/13960/t01z4js3n">
+        <rdf:type rdf:resource="&workset;Volume"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://hdl.handle.net/2027/uiuo.ark:/13960/t4hm5ks2z -->
+
+    <NamedIndividual rdf:about="http://hdl.handle.net/2027/uiuo.ark:/13960/t4hm5ks2z">
+        <rdf:type rdf:resource="&workset;Volume"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://hdl.handle.net/2027/uiuo.ark:/13960/t4zg7095h -->
+
+    <NamedIndividual rdf:about="http://hdl.handle.net/2027/uiuo.ark:/13960/t4zg7095h">
+        <rdf:type rdf:resource="&workset;Volume"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://hdl.handle.net/2027/uiuo.ark:/13960/t68345804 -->
+
+    <NamedIndividual rdf:about="http://hdl.handle.net/2027/uiuo.ark:/13960/t68345804">
+        <rdf:type rdf:resource="&workset;Volume"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://hdl.handle.net/2027/uiuo.ark:/13960/t6j10dg2z -->
+
+    <NamedIndividual rdf:about="http://hdl.handle.net/2027/uiuo.ark:/13960/t6j10dg2z">
+        <rdf:type rdf:resource="&workset;Volume"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://hdl.handle.net/2027/uiuo.ark:/13960/t9377qf6p -->
+
+    <NamedIndividual rdf:about="http://hdl.handle.net/2027/uiuo.ark:/13960/t9377qf6p">
+        <rdf:type rdf:resource="&workset;Volume"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

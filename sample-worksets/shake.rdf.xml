@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:terms="http://purl.org/dc/terms/" xmlns:workset="http://hathitrust.org/htrc/workset#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://hathitrust.org/htrc/workset/sample-data">
+    <owl:imports rdf:resource="http://hathitrust.org/htrc/workset/0.2"/>
+    <owl:versionIRI rdf:resource="http://hathitrust.org/htrc/workset/sample-data/0.1"/>
+  </owl:Ontology>
+  <owl:NamedIndividual rdf:about="http://hathitrust.org/htrc/workset/sample-data/users/tbw">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+    <terms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tbw</terms:identifier>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hathitrust.org/htrc/workset/sample-data/users/tbw#shake">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Workset"/>
+    <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-07T10:43:41-04:00</terms:modified>
+    <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shake</terms:title>
+    <terms:creator rdf:resource="http://hathitrust.org/htrc/workset/sample-data/users/tbw"/>
+    <terms:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bard</terms:abstract>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/nyp.33433074917125"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/njp.32101066124965"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/loc.ark:/13960/t3320m78p"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/inu.32000000994816"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/uc1.b4823758"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/uc1.b4823761"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/inu.32000000997660"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/loc.ark:/13960/t8qc0pm4k"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/nnc1.0044026277"/>
+    <workset:gathers rdf:resource="http://hdl.handle.net/2027/nnc1.0022680772"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/nyp.33433074917125">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/njp.32101066124965">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/loc.ark:/13960/t3320m78p">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/inu.32000000994816">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/uc1.b4823758">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/uc1.b4823761">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/inu.32000000997660">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/loc.ark:/13960/t8qc0pm4k">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/nnc1.0044026277">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/nnc1.0022680772">
+    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+  </owl:NamedIndividual>
+</rdf:RDF>
