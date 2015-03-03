@@ -63,7 +63,7 @@
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isGatheredInto"/>
-        <Class IRI="#Volume"/>
+        <Class IRI="http://purl.org/dc/terms/BibliographicResource"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/dc/terms/creator"/>
