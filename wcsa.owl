@@ -10,13 +10,13 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://hathitrust.org/htrc/workset"
+     xml:base="http://wcsa.htrc.illinois.edu/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     ontologyIRI="http://hathitrust.org/htrc/workset"
-     versionIRI="http://hathitrust.org/htrc/workset/0.2">
+     ontologyIRI="http://wcsa.htrc.illinois.edu/"
+     versionIRI="http://wcsa.htrc.illinois.edu/1.0">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -62,12 +62,12 @@
         <ObjectProperty IRI="#isGatheredInto"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isGatheredInto"/>
-        <Class IRI="http://purl.org/dc/terms/BibliographicResource"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/dc/terms/creator"/>
         <Class IRI="#Workset"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isGatheredInto"/>
+        <Class IRI="http://purl.org/dc/terms/BibliographicResource"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isGatheredInto"/>
@@ -125,16 +125,16 @@
         <IRI>#Record</IRI>
     </AnnotationPropertyRange>
     <AnnotationPropertyDomain>
-        <AnnotationProperty IRI="#bibliographicRecord"/>
-        <IRI>http://purl.org/dc/terms/BibliographicResource</IRI>
-    </AnnotationPropertyDomain>
-    <AnnotationPropertyDomain>
         <AnnotationProperty IRI="http://purl.org/dc/terms/abstract"/>
         <IRI>http://hathitrust.org/htrc/wcsa/workset#Workset</IRI>
     </AnnotationPropertyDomain>
     <AnnotationPropertyDomain>
         <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
         <IRI>http://hathitrust.org/htrc/wcsa/workset#Workset</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="#bibliographicRecord"/>
+        <IRI>http://purl.org/dc/terms/BibliographicResource</IRI>
     </AnnotationPropertyDomain>
 </Ontology>
 

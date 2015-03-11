@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:terms="http://purl.org/dc/terms/" xmlns:workset="http://hathitrust.org/htrc/workset#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <owl:Ontology rdf:about="http://hathitrust.org/htrc/workset/sample-data">
-    <owl:imports rdf:resource="http://hathitrust.org/htrc/workset/0.2"/>
-    <owl:versionIRI rdf:resource="http://hathitrust.org/htrc/workset/sample-data/0.1"/>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:terms="http://purl.org/dc/terms/" xmlns:workset="http://wcsa.htrc.illinois.edu/#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://wcsa.htrc.illinois.edu/sample-data">
+    <owl:imports rdf:resource="http://wcsa.htrc.illinois.edu/1.0"/>
+    <owl:versionIRI rdf:resource="http://wcsa.htrc.illinois.edu/sample-data/1.0"/>
   </owl:Ontology>
-  <owl:NamedIndividual rdf:about="http://hathitrust.org/htrc/workset/sample-data/users/skowalczyk">
+  <owl:NamedIndividual rdf:about="http://wcsa.htrc.illinois.edu/sample-data/users/skowalczyk">
     <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
     <terms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skowalczyk</terms:identifier>
   </owl:NamedIndividual>
-  <owl:NamedIndividual rdf:about="http://hathitrust.org/htrc/workset/sample-data/users/skowalczyk#civil-war-small-set">
-    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Workset"/>
+  <owl:NamedIndividual rdf:about="http://wcsa.htrc.illinois.edu/sample-data/users/skowalczyk#civil-war-small-set">
+    <rdf:type rdf:resource="http://wcsa.htrc.illinois.edu/#Workset"/>
     <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-08T12:50:06-04:00</terms:modified>
     <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">civil-war-small-set</terms:title>
-    <terms:creator rdf:resource="http://hathitrust.org/htrc/workset/sample-data/users/skowalczyk"/>
+    <terms:creator rdf:resource="http://wcsa.htrc.illinois.edu/sample-data/users/skowalczyk"/>
     <terms:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 records of subject civil war</terms:abstract>
     <workset:gathers rdf:resource="http://hdl.handle.net/2027/hvd.32044025033051"/>
     <workset:gathers rdf:resource="http://hdl.handle.net/2027/nyp.33433081921821"/>
@@ -22,21 +22,21 @@
     <workset:gathers rdf:resource="http://hdl.handle.net/2027/mdp.39015071123791"/>
   </owl:NamedIndividual>
   <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/hvd.32044025033051">
-    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+    <rdf:type rdf:resource="http://wcsa.htrc.illinois.edu/#Volume"/>
   </owl:NamedIndividual>
   <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/nyp.33433081921821">
-    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+    <rdf:type rdf:resource="http://wcsa.htrc.illinois.edu/#Volume"/>
   </owl:NamedIndividual>
   <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/yale.39002002970490">
-    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+    <rdf:type rdf:resource="http://wcsa.htrc.illinois.edu/#Volume"/>
   </owl:NamedIndividual>
   <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/loc.ark:/13960/t7gq79h2c">
-    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+    <rdf:type rdf:resource="http://wcsa.htrc.illinois.edu/#Volume"/>
   </owl:NamedIndividual>
   <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/loc.ark:/13960/t9h425j5q">
-    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+    <rdf:type rdf:resource="http://wcsa.htrc.illinois.edu/#Volume"/>
   </owl:NamedIndividual>
   <owl:NamedIndividual rdf:about="http://hdl.handle.net/2027/mdp.39015071123791">
-    <rdf:type rdf:resource="http://hathitrust.org/htrc/workset#Volume"/>
+    <rdf:type rdf:resource="http://wcsa.htrc.illinois.edu/#Volume"/>
   </owl:NamedIndividual>
 </rdf:RDF>
